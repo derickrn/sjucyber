@@ -10,6 +10,6 @@ Pull public container used in lab
 ``` docker pull sjusata/demos:python-bruteforce ```
 
 Run container on your local machine to run on port 8080
-``` docker run --name bruteforce-test -it -d -p 8080:8080 python-bruteforce:latest ```
+``` docker run --name bruteforce-test -it -d -p 8080:8080 sjusata/demos:python-bruteforce ```
 
 Now start building your attack script(s)! 
