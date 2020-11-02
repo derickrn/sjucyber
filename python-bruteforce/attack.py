@@ -8,7 +8,7 @@ with open("lists/pass.txt", "r") as passfile:
     pass_list = [line.rstrip() for line in passfile]
 
 # DECLARE STANDARD REQUEST INFO TO USE
-url = "http://127.0.0.1:8080/login"
+url = "http://127.0.0.1:8888/login"
 headers = { "Content-Type": "application/x-www-form-urlencoded" }
 
 # PERFORM WEB BRUTEFORCE WITH PYTHON

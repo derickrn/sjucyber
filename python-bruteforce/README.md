@@ -9,7 +9,7 @@ For this demonstration we will build and utilize Python to script and perform th
 Pull public container used in lab 
 ``` docker pull sjusata/demos:python-bruteforce ```
 
-Run container on your local machine to run on port 8080
-``` docker run --name python-bruteforce -it -d -p 8080:8080 sjusata/demos:python-bruteforce ```
+Run container on your local machine to run on port 8888
+``` docker run --name python-bruteforce -it -d -p 8888:8888 sjusata/demos:python-bruteforce ```
 
 Now start building your attack script(s)! 
